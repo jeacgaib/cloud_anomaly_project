@@ -1,0 +1,21 @@
+{
+  "run_id": "20261105_201952_latency",
+  "scenario": "latency",
+  "fault_service": "enlace_pedidos_pagos",
+  "t_start": 1793927992.8639867,
+  "t_end": 1793928416.6089675,
+  "fault_start": 1793928173.435031,
+  "fault_end": 1793928293.435143,
+  "recovered_at": 1793928293.596795,
+  "recovery_seconds": 0.1616520881652832,
+  "generator": "jmeter",
+  "trace_file": "data\\20261105_201952_latency_jmeter.jtl",
+  "params": {
+    "rps": 50.0,
+    "threads": 200,
+    "rampup": 30,
+    "latency_ms": 300,
+    "latency_mode": "netem",
+    "pagos_ip": "172.18.0.6"
+  }
+}

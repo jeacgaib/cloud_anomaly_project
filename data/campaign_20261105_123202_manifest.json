@@ -1,0 +1,218 @@
+[
+  {
+    "key": "cpu-0.2-rps50#3",
+    "scenario": "cpu",
+    "ok": true,
+    "events": "data\\20261105_123207_cpu_events.json",
+    "dataset": "data\\20261105_123207_cpu_dataset.csv",
+    "baseline_ok": true,
+    "recovery_seconds": 0.012212276458740234
+  },
+  {
+    "key": "latency-300-rps50#1",
+    "scenario": "latency",
+    "ok": true,
+    "events": "data\\20261105_123948_latency_events.json",
+    "dataset": "data\\20261105_123948_latency_dataset.csv",
+    "baseline_ok": true,
+    "recovery_seconds": 0.15380287170410156
+  },
+  {
+    "key": "latency-500-rps50#2",
+    "scenario": "latency",
+    "ok": true,
+    "events": "data\\20261105_124729_latency_events.json",
+    "dataset": "data\\20261105_124729_latency_dataset.csv",
+    "baseline_ok": true,
+    "recovery_seconds": 0.13491058349609375
+  },
+  {
+    "key": "latency-100-rps50#1",
+    "scenario": "latency",
+    "ok": true,
+    "events": "data\\20261105_125510_latency_events.json",
+    "dataset": "data\\20261105_125510_latency_dataset.csv",
+    "baseline_ok": true,
+    "recovery_seconds": 0.14522647857666016
+  },
+  {
+    "key": "cpu-0.4-rps50#2",
+    "scenario": "cpu",
+    "ok": true,
+    "events": "data\\20261105_130250_cpu_events.json",
+    "dataset": "data\\20261105_130250_cpu_dataset.csv",
+    "baseline_ok": true,
+    "recovery_seconds": 0.04552268981933594
+  },
+  {
+    "key": "cpu-0.6-rps50#3",
+    "scenario": "cpu",
+    "ok": true,
+    "events": "data\\20261105_131033_cpu_events.json",
+    "dataset": "data\\20261105_131033_cpu_dataset.csv",
+    "baseline_ok": false,
+    "recovery_seconds": null
+  },
+  {
+    "key": "latency-500-rps50#3",
+    "scenario": "latency",
+    "ok": true,
+    "events": "data\\20261105_131823_latency_events.json",
+    "dataset": "data\\20261105_131823_latency_dataset.csv",
+    "baseline_ok": false,
+    "recovery_seconds": null
+  },
+  {
+    "key": "latency-500-rps50#1",
+    "scenario": "latency",
+    "ok": true,
+    "events": "data\\20261105_132613_latency_events.json",
+    "dataset": "data\\20261105_132613_latency_dataset.csv",
+    "baseline_ok": false,
+    "recovery_seconds": null
+  },
+  {
+    "key": "cpu-0.4-rps50#1",
+    "scenario": "cpu",
+    "ok": true,
+    "events": "data\\20261105_133402_cpu_events.json",
+    "dataset": "data\\20261105_133402_cpu_dataset.csv",
+    "baseline_ok": false,
+    "recovery_seconds": null
+  },
+  {
+    "key": "latency-300-rps50#2",
+    "scenario": "latency",
+    "ok": true,
+    "events": "data\\20261105_134151_latency_events.json",
+    "dataset": "data\\20261105_134151_latency_dataset.csv",
+    "baseline_ok": false,
+    "recovery_seconds": null
+  },
+  {
+    "key": "cpu-0.6-rps50#2",
+    "scenario": "cpu",
+    "ok": true,
+    "events": "data\\20261105_134939_cpu_events.json",
+    "dataset": "data\\20261105_134939_cpu_dataset.csv",
+    "baseline_ok": false,
+    "recovery_seconds": null
+  },
+  {
+    "key": "latency-100-rps50#2",
+    "scenario": "latency",
+    "ok": true,
+    "events": "data\\20261105_135729_latency_events.json",
+    "dataset": "data\\20261105_135729_latency_dataset.csv",
+    "baseline_ok": false,
+    "recovery_seconds": null
+  },
+  {
+    "key": "cpu-0.4-rps50#3",
+    "scenario": "cpu",
+    "ok": true,
+    "events": "data\\20261105_140517_cpu_events.json",
+    "dataset": "data\\20261105_140517_cpu_dataset.csv",
+    "baseline_ok": false,
+    "recovery_seconds": null
+  },
+  {
+    "key": "normal-rps30#1",
+    "scenario": "normal",
+    "ok": true,
+    "events": "data\\20261105_141307_normal_events.json",
+    "dataset": "data\\20261105_141307_normal_dataset.csv",
+    "baseline_ok": false,
+    "recovery_seconds": null
+  },
+  {
+    "key": "cpu-0.5-rps50#1",
+    "scenario": "cpu",
+    "ok": true,
+    "events": "data\\20261105_142356_cpu_events.json",
+    "dataset": "data\\20261105_142356_cpu_dataset.csv",
+    "baseline_ok": false,
+    "recovery_seconds": null
+  },
+  {
+    "key": "cpu-0.5-rps50#3",
+    "scenario": "cpu",
+    "ok": true,
+    "events": "data\\20261105_143146_cpu_events.json",
+    "dataset": "data\\20261105_143146_cpu_dataset.csv",
+    "baseline_ok": false,
+    "recovery_seconds": null
+  },
+  {
+    "key": "cpu-0.2-rps50#1",
+    "scenario": "cpu",
+    "ok": true,
+    "events": "data\\20261105_143933_cpu_events.json",
+    "dataset": "data\\20261105_143933_cpu_dataset.csv",
+    "baseline_ok": false,
+    "recovery_seconds": null
+  },
+  {
+    "key": "latency-100-rps50#3",
+    "scenario": "latency",
+    "ok": true,
+    "events": "data\\20261105_144718_latency_events.json",
+    "dataset": "data\\20261105_144718_latency_dataset.csv",
+    "baseline_ok": false,
+    "recovery_seconds": null
+  },
+  {
+    "key": "normal-rps70#1",
+    "scenario": "normal",
+    "ok": true,
+    "events": "data\\20261105_145504_normal_events.json",
+    "dataset": "data\\20261105_145504_normal_dataset.csv",
+    "baseline_ok": false,
+    "recovery_seconds": null
+  },
+  {
+    "key": "normal-rps50#1",
+    "scenario": "normal",
+    "ok": true,
+    "events": "data\\20261105_150551_normal_events.json",
+    "dataset": "data\\20261105_150551_normal_dataset.csv",
+    "baseline_ok": false,
+    "recovery_seconds": null
+  },
+  {
+    "key": "latency-300-rps50#3",
+    "scenario": "latency",
+    "ok": true,
+    "events": "data\\20261105_151637_latency_events.json",
+    "dataset": "data\\20261105_151637_latency_dataset.csv",
+    "baseline_ok": false,
+    "recovery_seconds": null
+  },
+  {
+    "key": "cpu-0.6-rps50#1",
+    "scenario": "cpu",
+    "ok": true,
+    "events": "data\\20261105_152421_cpu_events.json",
+    "dataset": "data\\20261105_152421_cpu_dataset.csv",
+    "baseline_ok": false,
+    "recovery_seconds": null
+  },
+  {
+    "key": "cpu-0.2-rps50#2",
+    "scenario": "cpu",
+    "ok": true,
+    "events": "data\\20261105_153208_cpu_events.json",
+    "dataset": "data\\20261105_153208_cpu_dataset.csv",
+    "baseline_ok": false,
+    "recovery_seconds": null
+  },
+  {
+    "key": "cpu-0.5-rps50#2",
+    "scenario": "cpu",
+    "ok": true,
+    "events": "data\\20261105_153954_cpu_events.json",
+    "dataset": "data\\20261105_153954_cpu_dataset.csv",
+    "baseline_ok": false,
+    "recovery_seconds": null
+  }
+]

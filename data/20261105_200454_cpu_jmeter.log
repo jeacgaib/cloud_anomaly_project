@@ -1,0 +1,39 @@
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+Creating summariser <summary>
+Created the tree successfully using C:\Users\eduar\Desktop\cloud_anomaly_project\jmeter\plan.jmx
+Starting standalone test @ November 5, 2026 8:04:55 PM COT (1793927095955)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary +    194 in 00:00:04 =   51.3/s Avg:    30 Min:     3 Max:    81 Err:     0 (0.00%) Active: 25 Started: 25 Finished: 0
+summary +   1670 in 00:00:30 =   55.7/s Avg:    30 Min:     3 Max:    66 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+summary =   1864 in 00:00:34 =   55.2/s Avg:    30 Min:     3 Max:    81 Err:     0 (0.00%)
+summary +   1500 in 00:00:30 =   49.9/s Avg:    29 Min:     3 Max:    74 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+summary =   3364 in 00:01:04 =   52.7/s Avg:    30 Min:     3 Max:    81 Err:     0 (0.00%)
+summary +   1500 in 00:00:30 =   50.0/s Avg:    30 Min:     2 Max:    77 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+summary =   4864 in 00:01:34 =   51.9/s Avg:    30 Min:     2 Max:    81 Err:     0 (0.00%)
+summary +   1500 in 00:00:30 =   50.0/s Avg:    29 Min:     2 Max:    65 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+summary =   6364 in 00:02:04 =   51.4/s Avg:    30 Min:     2 Max:    81 Err:     0 (0.00%)
+summary +   1499 in 00:00:30 =   50.0/s Avg:    30 Min:     3 Max:    66 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+summary =   7863 in 00:02:34 =   51.1/s Avg:    30 Min:     2 Max:    81 Err:     0 (0.00%)
+summary +   1501 in 00:00:30 =   49.9/s Avg:    31 Min:     2 Max:    77 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+summary =   9364 in 00:03:04 =   50.9/s Avg:    30 Min:     2 Max:    81 Err:     0 (0.00%)
+summary +   1499 in 00:00:30 =   50.0/s Avg:    37 Min:     2 Max:   116 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+summary =  10863 in 00:03:34 =   50.8/s Avg:    31 Min:     2 Max:   116 Err:     0 (0.00%)
+summary +   1501 in 00:00:30 =   50.0/s Avg:    36 Min:     2 Max:    82 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+summary =  12364 in 00:04:04 =   50.7/s Avg:    31 Min:     2 Max:   116 Err:     0 (0.00%)
+summary +   1499 in 00:00:30 =   50.0/s Avg:    36 Min:     2 Max:    90 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+summary =  13863 in 00:04:34 =   50.6/s Avg:    32 Min:     2 Max:   116 Err:     0 (0.00%)
+summary +   1501 in 00:00:30 =   50.0/s Avg:    36 Min:     2 Max:   267 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+summary =  15364 in 00:05:04 =   50.6/s Avg:    32 Min:     2 Max:   267 Err:     0 (0.00%)
+summary +   1500 in 00:00:30 =   50.1/s Avg:    29 Min:     3 Max:    79 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+summary =  16864 in 00:05:34 =   50.5/s Avg:    32 Min:     2 Max:   267 Err:     0 (0.00%)
+summary +   1500 in 00:00:30 =   49.9/s Avg:    29 Min:     2 Max:    60 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+summary =  18364 in 00:06:04 =   50.5/s Avg:    32 Min:     2 Max:   267 Err:     0 (0.00%)
+summary +   1499 in 00:00:30 =   50.0/s Avg:    29 Min:     2 Max:    61 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+summary =  19863 in 00:06:34 =   50.4/s Avg:    31 Min:     2 Max:   267 Err:     0 (0.00%)
+summary +   1324 in 00:00:26 =   50.2/s Avg:    29 Min:     2 Max:    67 Err:     0 (0.00%) Active: 0 Started: 200 Finished: 200
+summary =  21187 in 00:07:00 =   50.4/s Avg:    31 Min:     2 Max:   267 Err:     0 (0.00%)
+Tidying up ...    @ November 5, 2026 8:11:56 PM COT (1793927516389)
+... end of run

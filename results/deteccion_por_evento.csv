@@ -1,0 +1,43 @@
+modelo,escenario,severidad,run_id,detectada,t_deteccion_s
+Isolation Forest,cpu,0.2,20261105_170658_cpu,False,
+Isolation Forest,cpu,0.2,20261105_191248_cpu,False,
+Isolation Forest,cpu,0.2,20261105_200454_cpu,False,
+Isolation Forest,cpu,0.4,20261105_173740_cpu,False,
+Isolation Forest,cpu,0.4,20261105_180822_cpu,False,
+Isolation Forest,cpu,0.4,20261105_183905_cpu,False,
+Isolation Forest,cpu,0.5,20261105_185726_cpu,False,
+Isolation Forest,cpu,0.5,20261105_190507_cpu,False,
+Isolation Forest,cpu,0.5,20261105_201234_cpu,False,
+Isolation Forest,cpu,0.6,20261105_174520_cpu,False,
+Isolation Forest,cpu,0.6,20261105_182343_cpu,True,19.946315050125122
+Isolation Forest,cpu,0.6,20261105_195713_cpu,False,
+Isolation Forest,latency,100.0,20261105_172959_latency,False,
+Isolation Forest,latency,100.0,20261105_183124_latency,False,
+Isolation Forest,latency,100.0,20261105_192028_latency,False,
+Isolation Forest,latency,300.0,20261105_171438_latency,False,
+Isolation Forest,latency,300.0,20261105_181603_latency,False,
+Isolation Forest,latency,300.0,20261105_201952_latency,False,
+Isolation Forest,latency,500.0,20261105_172219_latency,False,
+Isolation Forest,latency,500.0,20261105_175301_latency,True,104.42338418960571
+Isolation Forest,latency,500.0,20261105_180042_latency,False,
+Autoencoder,cpu,0.2,20261105_170658_cpu,False,
+Autoencoder,cpu,0.2,20261105_191248_cpu,False,
+Autoencoder,cpu,0.2,20261105_200454_cpu,False,
+Autoencoder,cpu,0.4,20261105_173740_cpu,True,114.93870759010315
+Autoencoder,cpu,0.4,20261105_180822_cpu,False,
+Autoencoder,cpu,0.4,20261105_183905_cpu,True,14.931138277053833
+Autoencoder,cpu,0.5,20261105_185726_cpu,True,19.945560932159424
+Autoencoder,cpu,0.5,20261105_190507_cpu,True,19.939884662628174
+Autoencoder,cpu,0.5,20261105_201234_cpu,True,14.953621625900269
+Autoencoder,cpu,0.6,20261105_174520_cpu,True,14.932979106903076
+Autoencoder,cpu,0.6,20261105_182343_cpu,True,14.946315050125122
+Autoencoder,cpu,0.6,20261105_195713_cpu,True,9.908254146575928
+Autoencoder,latency,100.0,20261105_172959_latency,True,9.452096462249756
+Autoencoder,latency,100.0,20261105_183124_latency,True,14.41971468925476
+Autoencoder,latency,100.0,20261105_192028_latency,True,9.397392511367798
+Autoencoder,latency,300.0,20261105_171438_latency,True,9.44167447090149
+Autoencoder,latency,300.0,20261105_181603_latency,True,9.406809329986572
+Autoencoder,latency,300.0,20261105_201952_latency,True,9.428955793380737
+Autoencoder,latency,500.0,20261105_172219_latency,True,9.44981074333191
+Autoencoder,latency,500.0,20261105_175301_latency,True,14.423384189605713
+Autoencoder,latency,500.0,20261105_180042_latency,True,14.402634859085083

@@ -1,0 +1,3 @@
+modelo,grupo,evento,inicio,inicio_ts,fin_ts,filas,duracion_s,puntuacion_sobre_umbral,componente,peso_componente,variables
+Autoencoder,20261105_171438_latency,1,17:17:43,1793917063.7484512,1793917188.7484512,26,130.0,20.749402075974693,pedidos,0.972,pedidos_latency_ms (64%) | pedidos_latency_p95_ms (33%) | notificaciones_latency_p95_ms (1%)
+Autoencoder,20261105_173740_cpu,2,17:42:30,1793918550.0544655,1793918555.0544655,2,10.0,2.7825966728685234,notificaciones,0.338,notificaciones_cpu_throttled_ps (27%) | nginx_cpu_cores (15%) | pedidos_cpu_cores (14%)

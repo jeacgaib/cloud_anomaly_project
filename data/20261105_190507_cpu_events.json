@@ -1,0 +1,20 @@
+{
+  "run_id": "20261105_190507_cpu",
+  "scenario": "cpu",
+  "fault_service": "servicio_pedidos",
+  "t_start": 1793923507.4741402,
+  "t_end": 1793923931.2186422,
+  "fault_start": 1793923687.5342555,
+  "fault_end": 1793923807.5345669,
+  "recovered_at": 1793923807.5521498,
+  "recovery_seconds": 0.01758289337158203,
+  "generator": "jmeter",
+  "trace_file": "data\\20261105_190507_cpu_jmeter.jtl",
+  "params": {
+    "rps": 50.0,
+    "threads": 200,
+    "rampup": 30,
+    "cpu_workers": 1,
+    "cpu_duty": 0.5
+  }
+}

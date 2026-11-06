@@ -1,0 +1,18 @@
+{
+  "run_id": "20261105_184645_normal",
+  "scenario": "normal",
+  "fault_service": null,
+  "t_start": 1793922405.7308514,
+  "t_end": 1793923009.508342,
+  "fault_start": null,
+  "fault_end": null,
+  "recovered_at": null,
+  "recovery_seconds": null,
+  "generator": "jmeter",
+  "trace_file": "data\\20261105_184645_normal_jmeter.jtl",
+  "params": {
+    "rps": 30.0,
+    "threads": 150,
+    "rampup": 30
+  }
+}
