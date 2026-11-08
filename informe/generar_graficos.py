@@ -257,6 +257,40 @@ def explicacion(row, ex):
     save(fig, "07_explicacion_por_componente.png")
 
 
+def matriz(res):
+    fig, axes = plt.subplots(1, 2, figsize=(9, 3.9))
+    for ax, (n, c) in zip(axes, MODELS):
+        cm = pd.crosstab(res.label, res[f"flag_{n}"]).reindex(index=[0, 1], columns=[0, 1], fill_value=0).values
+        frac = cm / cm.sum(axis=1, keepdims=True)   # proporción por clase real
+        cmap = matplotlib.colors.LinearSegmentedColormap.from_list(n, [SURFACE, c])
+        ax.imshow(frac, cmap=cmap, vmin=0, vmax=1)
+        
+        for i in range(2):
+            for j in range(2):
+                ax.text(j, i, f"{cm[i, j]:,}\n{100 * frac[i, j]:.1f}%",
+                        ha="center", va="center", fontsize=11, fontweight="bold",
+                        color=SURFACE if frac[i, j] > 0.6 else INK)
+        
+        ax.set_xticks([0, 1])
+        # Cambiadas a inglés
+        ax.set_xticklabels(["Normal", "Fault"]) 
+        ax.set_yticks([0, 1])
+        # Cambiadas a inglés
+        ax.set_yticklabels(["Normal", "Fault"]) 
+        
+        # Cambiadas a inglés
+        ax.set_xlabel("Predicted Label")
+        ax.set_ylabel("True Label")
+        ax.set_title(n)
+        ax.grid(False)
+        for s in ax.spines.values():
+            s.set_visible(False)
+            
+    fig.tight_layout()
+    save(fig, "08_confusion_matrix_EN.png")
+
+
+
 def main():
     os.makedirs(OUT, exist_ok=True)
     d = pd.read_csv(sys.argv[1])
@@ -265,13 +299,14 @@ def main():
     ev = pd.read_csv("results/deteccion_por_evento.csv")
     ex = pd.read_csv("results/explicaciones_por_run.csv")
     row["severidad"] = pd.to_numeric(row.severidad, errors="coerce")
-    arquitectura()
-    efecto(d)
-    puntuacion(res)
-    comparacion(row, ev)
-    tiempos(row, ev)
-    normales(res, d)
-    explicacion(row, ex)
+    #arquitectura()
+    #efecto(d)
+    #puntuacion(res)
+    #comparacion(row, ev)
+    #tiempos(row, ev)
+    #normales(res, d)
+    #explicacion(row, ex)
+    matriz(res)
     print("Graficos en", OUT)
 
 
